@@ -2,7 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 body{
     
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background: #1e1e2f;
+     color: #fff;
+     padding: 2rem;
+
+}
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+.score-board {
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
 }
