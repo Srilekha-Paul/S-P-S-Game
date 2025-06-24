@@ -26,3 +26,22 @@ h1 {
   margin-bottom: 2rem;
   text-align: center;
 }
+.score-board p {
+  font-size: 1.5rem;
+}
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.choice {
+  background: #333;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
