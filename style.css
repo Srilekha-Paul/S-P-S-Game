@@ -44,4 +44,12 @@ h1 {
   font-size: 1.2rem;
   transition: 0.3s;
 }
+.choice:hover {
+  background: #555;
+}
+
+#result {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
 
